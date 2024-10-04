@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  root to: "pages#home"
 
   resources :cars, only: [ :index, :show ] do
     resources :reviews, only: :create
@@ -19,3 +19,5 @@ Rails.application.routes.draw do
 
   resources :favourites, only: [:index, :destroy]
 end
+
+

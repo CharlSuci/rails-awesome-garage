@@ -1,0 +1,52 @@
+.banner {
+  height: 100vh;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+
+
+}
+
+.banner h2 {
+  color: white;
+  font-size: 64px;
+  letter-spacing: 3px;
+  margin-top: -20px;
+
+
+}
+
+.banner h3 {
+  color: rgb(223, 224, 224);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 84px;
+  letter-spacing: 2px;
+  margin-top: -25px;
+
+
+}
+
+
+.banner p {
+  color: whitesmoke;
+  letter-spacing: 2px;
+  margin-top: -2px;
+
+
+}
+
+.banner a {
+
+  justify-content: space-between;
+  width: 210px;
+  margin-inline: 20px;
+  margin-top: 10px;
+}
